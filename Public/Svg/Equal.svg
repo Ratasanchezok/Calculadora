@@ -1,0 +1,27 @@
+<svg width="152" height="125" viewBox="0 0 152 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_12_264)">
+<g filter="url(#filter1_f_12_264)">
+<path d="M52 52H100.469" stroke="#F72585" stroke-width="3" stroke-linecap="round"/>
+<path d="M52 73.3262H98.5299" stroke="#F72585" stroke-width="3" stroke-linecap="round"/>
+</g>
+<path d="M52 52H100.469" stroke="#F72585" stroke-width="3" stroke-linecap="round"/>
+<path d="M52 73.3262H98.5299" stroke="#F72585" stroke-width="3" stroke-linecap="round"/>
+</g>
+<defs>
+<filter id="filter0_d_12_264" x="46.5" y="50.5" width="59.4687" height="32.3262" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_12_264"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_12_264" result="shape"/>
+</filter>
+<filter id="filter1_f_12_264" x="0.5" y="0.5" width="151.469" height="124.326" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="25" result="effect1_foregroundBlur_12_264"/>
+</filter>
+</defs>
+</svg>

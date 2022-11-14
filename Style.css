@@ -1,0 +1,132 @@
+html, 
+body{
+width: 100vw;
+height: 100vh;
+overflow-x: hidden;
+overflow-y: hidden;
+background: linear-gradient(-40deg, #80ffdb, #64dfdf ,#56cfe1, #48bfe3, #4ea8de, #5390d9, #5e60ce, #6930c3, #7400b8, #b5179e, #f72585, #a01a58, #892b64, #723c70, #5c4d7d, #455e89, #1780a1, #0091ad );
+background-size: 400% 400%;
+animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.all{
+margin: 0 auto;
+width: 320px;
+height: auto;
+border: 3px solid cyan;
+border-radius: 10%;
+margin-top: 100px; !important
+}
+
+.keyboard input{
+  width: 56px;
+  height: 56px;
+  border: solid 2px cyan;
+  border-radius: 10%;
+  z-index: 2;
+  font-size: 24px;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+
+.display{
+  text-align: left;
+  font-size: 24px;
+  color: cyan;
+  background-color: transparent;
+  border: none;
+  transition: 2000ms;
+  margin-top: 15px;
+}
+
+.keyboard input:hover{
+  color: cyan;
+}
+
+.activekeyboard {
+  margin-left: 10000px;
+  margin-top: 1000px;
+}
+
+.activeResult{
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: -280px;
+  transform: scale(1.2);
+}
+
+.keyboard{
+  display: flex;
+  justify-content: center;
+  width: 360px;
+  margin-top: 50px;
+  transition: all 2000ms;
+  margin-bottom: 15px;
+}
+
+.column1, .column2, .column3, .column4{
+  text-align: center;
+  display: grid;
+  justify-content: space-around;
+}
+
+.titulo-logo{
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+.column1, .column2, .column3, .column4 ,input{
+  margin: 5px;
+}
+
+.bot-buttons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.reset, .equal{
+  width: 120px;
+  height: auto;
+  padding: 5px;
+  font-size: 26px;
+  z-index: 3;
+  border: 2px cyan solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.column1{
+  margin-left: -35px;
+}
+
+.background{
+  z-index: 1;
+}
+
+.calcu{
+  color: cyan;
+  font-size: 40px;
+}
+
+.ladora{
+  color: cyan;
+  font-size:40px ;
+}

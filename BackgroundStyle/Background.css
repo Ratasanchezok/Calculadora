@@ -1,0 +1,178 @@
+.plus{
+  position: absolute;
+  bottom: 0%;
+  left: 10%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: in-burbujas 2s linear infinite;
+}
+
+.cross{
+  position: absolute;
+  bottom: 0%;
+  left: 15%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: in-burbujas 3s linear infinite;
+}
+
+.minus{
+  position: absolute;
+  bottom: 0%;
+  left: 20%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: in-burbujas 1.8s linear infinite;
+}
+
+.porcentage{
+  position: absolute;
+  bottom: 0%;
+  left: 25%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: burbujas 3s linear infinite;
+}
+
+.log{
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: burbujas 2.6s linear infinite;
+}
+
+.equalt{
+  position: absolute;
+  bottom: 0%;
+  left: 35%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: burbujas 3.2s linear infinite;
+}
+
+.cubico{
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: burbujas 1.9s linear infinite;
+}
+
+.ans{
+  position: absolute;
+  bottom: 0%;
+  left: 30%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: burbujas 3500ms linear infinite;
+}
+
+.cos{
+  position: absolute;
+  bottom: 0%;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: in-burbujas 4s linear infinite;
+}
+
+.error{
+  position: absolute;
+  bottom: 0%;
+  left: 45%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: burbujas 5s linear infinite;
+}
+
+.equaln_t{
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: in-burbujas 4.5s linear infinite;
+}
+
+.for{
+  position: absolute;
+  bottom: 0%;
+  left: 55%;
+  width: 200px;
+  height: 200px;
+  margin-left: 3px;
+  animation: burbujas 4.5s linear infinite;
+}
+
+.arroba{
+  position: absolute;
+  bottom: 0%;
+  left: 60%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: in-burbujas 2.5s linear infinite;
+}
+
+.exp{
+  position: absolute;
+  bottom: 0%;
+  left: 65%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: in-burbujas 4.8s linear infinite;
+}
+
+.cocodrile_s{
+  position: absolute;
+  bottom: 0%;
+  left: 65%;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  animation: burbujas 4.8s linear infinite;
+
+}
+
+@keyframes burbujas{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  30%{
+    opacity: .8;
+  }
+  100%{
+    bottom:100vh;
+    opacity: 0;
+  }
+}
+
+@keyframes in-burbujas{
+  100%{
+    bottom: 0;
+    opacity: 0;
+  }
+  30%{
+    opacity: .8;
+  }
+  0%{
+    bottom:100vh;
+    opacity: 0;
+  }
+}

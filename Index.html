@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="BackgroundStyle/Background.css" />
+    <title>Calculadora</title>
+  </head>
+
+  <body>
+  
+    <div class="all">
+      <div class="titulo-logo">
+        <span class="calcu">Calcu</span><span class="ladora">ladora</span
+        ><img src="" alt="" class="img-logo" />
+      </div>
+
+      <form name="calculator">
+        <div class="display">
+        <input type="taxtfield" name="ans" id="" value="" autocomplete="off" readonly class="display" placeholder="Result">
+        </div>
+
+      <div class="keyboard">
+        <div class="column1">
+          <input type="button" value="7" onclick="document.calculator.ans.value+='7'">
+          <input type="button" value="8" onclick="document.calculator.ans.value+='8'">
+          <input type="button" value="9" onclick="document.calculator.ans.value+='9'">
+          <input type="button" value="+" onclick="document.calculator.ans.value+='+'">
+        </div>
+        <div class="column2">
+          <input type="button" value="4" onclick="document.calculator.ans.value+='4'">
+          <input type="button" value="5" onclick="document.calculator.ans.value+='5'">
+          <input type="button" value="6" onclick="document.calculator.ans.value+='6'">
+          <input type="button" value="-" onclick="document.calculator.ans.value+='-'">
+        </div>
+        <div class="column3">
+          <input type="button" value="1" onclick="document.calculator.ans.value+='1'">
+          <input type="button" value="2" onclick="document.calculator.ans.value+='2'">
+          <input type="button" value="3" onclick="document.calculator.ans.value+='3'">
+          <input type="button" value="*" onclick="document.calculator.ans.value+='*'">
+        </div>
+        <div class="column4">
+          <input type="button" value="0" onclick="document.calculator.ans.value+='0'">
+          <input type="button" value="/" onclick="document.calculator.ans.value+='/'">
+          <input type="button" value="." onclick="document.calculator.ans.value+='.'">
+          <input type="reset" value="C" onclick="document.calculator.ans.value+='DEL'">
+        </div>
+      </div>
+    </form>
+      <div class="bot-buttons">
+        <button class="reset" type="button" > <- </button>
+        <button class="equal" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">=</button>
+      </div>
+
+    </div>
+    <div class="background">
+      <img src="Public/Svg/Plus.svg" alt="" class="plus">
+      <img src="Public/Svg/X.svg" alt="" class="cross">
+      <img src="Public/Svg/Minus.svg" alt="" class="minus">
+      <img src="Public/Svg/Porcentage.svg" alt="" class="porcentage">
+      <img src="Public/Svg/Log().svg" alt="" class="log">
+      <img src="Public/Svg/Equal.svg" alt="" class="equalt">
+      <img src="Public/Svg/Cubico.svg" alt="" class="cubico">
+      <img src="Public/Svg/Ans.svg" alt="" class="ans">
+      <img src="Public/Svg/Cos.svg" alt="" class="cos">
+      <img src="Public/Svg/Error.svg" alt="" class="error">
+      <img src="Public/Svg/Equaln-t.svg" alt="" class="equaln_t">
+      <img src="Public/Svg/For().svg" alt="" class="for">
+      <img src="Public/Svg/@.svg" alt="" class="arroba">
+      <img src="Public/Svg/Exp.svg" alt="" class="exp">
+      <img src="Public/Svg/Cocodrile-s.svg" alt="" class="cocodrile_s">
+    </div>
+
+    <script src="script.js/index.js"></script>
+  </body>
+</html>
